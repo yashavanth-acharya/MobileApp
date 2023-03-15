@@ -1,6 +1,21 @@
 {
   "expo": {
     "scheme": "acme",
-    "web": { "bundler": "metro" }
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "mms",
+    "description": "your app desc",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.app.mms"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "98d73b63-4f08-4e4e-bf94-b26b0f5fd0d7"
+      }
+    }
   }
 }
